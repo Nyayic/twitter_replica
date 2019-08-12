@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Twitter</title>
+    <link rel="stylesheet" href="css/components/twitter.css">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="data:image/png;base64,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">
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-6"  style="background-image: url('images/social/new-twitter-logo.jpg');margin: 0px;padding: 0px;">
+        <div class="intro">
+
+        <br><br><br><br><br>
+            <h2>You’re one step away from the shiny new Twitter.com</h2>
+            <br>
+            <h3>We’ve added tons of cool features, including …..</h3>
+            <br><br>
+            <ul>
+                <li>
+                    <span class="icon icon-discover"></span>
+                    <h3>Explore</h3>
+                    <p>Get the latest Tweets, news, and videos in one place.</p>
+                </li>
+                <li>
+                    <h3>Bookmarks</h3>
+                    <p>Save that interesting Tweet for later.</p>
+                </li>
+                <li>
+                    <h3>Personalize</h3>
+                    <p>Choose from new themes and more dark mode options.</p>
+                </li>
+            </ul>
+            </div>
+
+
+        </div>
+
+        <div class="col-sm-6 background-color" style="padding: 60px;">
+            <br><br><br><br><br>
+            
+            <img width="40px" src="data:image/png;base64,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">
+            <input style="float: right; border-radius: 20px" type="button" class="btn btn-outline-primary" value="Login">
+            <br><br>
+            <h3><b>See what's happening in the world right now!<b></b></h3><br><br><br>
+            <h5><b>Join Twitter today.</b></h5><br>
+
+            <input type="button" class="btn btn-primary" style="border-radius: 20px;padding-right: 200px;padding-left: 180px;" value="Sign Up"><br><br>
+            <input type="button" class="btn btn-outline-primary" style="border-radius: 20px;padding-right: 200px;padding-left: 200px;" value="Login">
+
+        </div>
+
+        </div>
+        </div>
+
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
